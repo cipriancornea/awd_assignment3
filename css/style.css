@@ -540,11 +540,6 @@ span {
     border: .2rem solid var(--main-color);
 }
 
-.contact form .input-box .input-field label,
-.contact form .textarea-field label {
-    display: none;
-}
-
 .contact form .input-box .input-field input::placeholder,
 .contact form .textarea-field textarea::placeholder {
     color: var(--text-color);
