@@ -28,7 +28,7 @@
     text-align: end;
 }
 
-.course-image h3 { 
+.course-image h1 { 
     font-size: 5rem;
     color: var(--main-color);
 }
@@ -247,5 +247,14 @@ ol, ul {
     }
 }
 
+@media (max-width: 430px) {
+    .btn-box-course { 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 1.8rem;
+        margin-bottom: 200px;
+    }
+}
 
 
