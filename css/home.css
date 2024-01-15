@@ -100,13 +100,13 @@
 }
 
 .contact p { 
-  color: var(--link-color);
+  color: lightblue;
   font-style: italic;
 }
 
 
 .fmi a { 
-  color: var(--link-color);
+  color:lightblue;
 }
 
 .fmi a:hover {
