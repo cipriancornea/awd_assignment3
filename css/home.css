@@ -99,8 +99,19 @@
   width: 100%;
 }
 
+.contact p { 
+  color: var(--link-color);
+  font-style: italic;
+}
 
 
+.fmi a { 
+  color: var(--link-color);
+}
+
+.fmi a:hover {
+  text-decoration: underline;
+}
 
 @media (max-width: 1200px) {
   .home { 

@@ -4,7 +4,7 @@
 }
 
 .contact form {
-  max-width: 70rem;
+  max-width: 50rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -18,7 +18,7 @@
 
 .contact form .input-box .input-field {
   position: relative;
-  width: 49%;
+  width: 100%;
   margin: .8rem 0;
 }
 
@@ -66,4 +66,27 @@
 
 .contact form .textarea-field textarea {
   resize: none;
+}
+
+.form-field { 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#mobile, #name, #email, #email-subject {
+  width: 100%;
+}
+
+label { 
+  font-size: 1.3rem;
+}
+
+
+@media (max-width: 600px) { 
+  .contact form .input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
